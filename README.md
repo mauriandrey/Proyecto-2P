@@ -34,15 +34,16 @@ El sistema implementa los principios SOLID de programación orientada a objetos 
   - 🔁 Limpiar formulario
 
 ## 🧱 Estructura del proyecto
-Project-Ejercicio2/
-├── index.php # Interfaz principal
-├── clases/
-│ ├── EstadisticaInterface.php
-│ ├── Estadistica.php
-│ └── EstadisticaBasica.php
-└── assets/
-└── js/
-└── form-handler.js # Lógica JS para la interfaz dinámica
+
+-Project-Ejercicio2/
+-├── index.php # Interfaz principal
+-├── clases/
+-│ ├── EstadisticaInterface.php
+-│ ├── Estadistica.php
+-│ └── EstadisticaBasica.php
+-└── assets/
+-└── js/
+-└── form-handler.js # Lógica JS para la interfaz dinámica
 
 ## ✅ Tecnologías usadas
 
@@ -76,10 +77,10 @@ Project-Ejercicio2/
 
 - Universidad de las Fuerzas Armadas ESPE  
 - Docente: Geovanny Cudco  
-- Desarrollado por: *[Tu nombre aquí]*
+- Desarrollado por: Mauri Tandazo
 
 ---
 
-**Fecha límite de entrega:** 01 de julio de 2025
+**Fecha límite de entrega:** 10 de julio de 2025
 
 
