@@ -35,15 +35,15 @@ El sistema implementa los principios SOLID de programación orientada a objetos 
 
 ## 🧱 Estructura del proyecto
 
--Project-Ejercicio2/
--├── index.php # Interfaz principal
--├── clases/
--│ ├── EstadisticaInterface.php
--│ ├── Estadistica.php
--│ └── EstadisticaBasica.php
--└── assets/
--└── js/
--└── form-handler.js # Lógica JS para la interfaz dinámica
+- Project-Ejercicio2/
+- ├── index.php # Interfaz principal
+- ├── clases/
+- │ ├── EstadisticaInterface.php
+- │ ├── Estadistica.php
+- │ └── EstadisticaBasica.php
+- └── assets/
+- └── js/
+- └── form-handler.js # Lógica JS para la interfaz dinámica
 
 ## ✅ Tecnologías usadas
 
