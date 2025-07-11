@@ -1,6 +1,8 @@
 # Proyecto-2P
 Ejercicios 2 y 4 del Laboratorio Introducción a la Programación en PHP + Interfaz Grafica 
 
+#
+
 # 📊 Project-Ejercicio2 — Estadísticas Básicas en PHP
 
 Este proyecto permite calcular estadísticas básicas (media, mediana y moda) de hasta 5 conjuntos de datos ingresados por el usuario a través de una interfaz gráfica construida con PHP, HTML, Bootstrap y JavaScript.
@@ -10,7 +12,7 @@ Este proyecto permite calcular estadísticas básicas (media, mediana y moda) de
 El sistema implementa los principios SOLID de programación orientada a objetos en PHP, utilizando:
 
 - Tipado fuerte (`strict_types=1`)
-- Interfaces (`EstadisticaInterface`)
+- Interfaces (`EstadisticaOperaciones`)
 - Clases abstractas (`Estadistica`)
 - Clases hijas (`EstadisticaBasica`)
 - Estructura modular por carpetas
@@ -35,17 +37,17 @@ El sistema implementa los principios SOLID de programación orientada a objetos 
 
 ## 🧱 Estructura del proyecto
 ```
-- Project-Ejercicio2/
-- ├── index.php # Interfaz principal
-- ├── clases/
-- │ ├── EstadisticaOperaciones.php
-- │ ├── Estadistica.php
-- │ └── EstadisticaBasica.php
-- └── assets/
-- │   ├── css/
-- │   └── styles.css  
-- │   ├──js/
-- │   └──form-handler.js # Lógica JS para la interfaz dinámica
+Project-Ejercicio2/
+ ├── index.php # Interfaz principal
+ ├── clases/
+ │ ├── EstadisticaOperaciones.php
+ │ ├── Estadistica.php
+ │ └── EstadisticaBasica.php
+ └── assets/
+ │   ├── css/
+ │   └── styles.css  
+ │   ├──js/
+ │   └──form-handler.js # Lógica JS para la interfaz dinámica
 ```
 ## ✅ Tecnologías usadas
 
@@ -53,7 +55,7 @@ El sistema implementa los principios SOLID de programación orientada a objetos 
 - Bootstrap 5.3 (diseño responsivo)
 - JavaScript (dinamismo del formulario)
 - HTML5
-- CSS3 (opcional)
+- CSS3
 
 ## ▶️ Instrucciones de uso
 
@@ -70,6 +72,8 @@ El sistema implementa los principios SOLID de programación orientada a objetos 
 - Mantén la carpeta `assets/js/` para separar la lógica del cliente.
 - Valida que PHP esté configurado con `display_errors=On` durante desarrollo.
 - Puedes usar un autoloader (`spl_autoload_register`) si expandes el sistema.
+
+#
 
 # 📐 Project-Ejercicio4 — Operaciones con Matrices en PHP
 
@@ -126,7 +130,6 @@ Este proyecto permite realizar operaciones matemáticas con matrices de hasta 4x
 - Solo se aceptan valores numéricos (decimales con punto o coma)
 - Las matrices deben ser compatibles según la operación seleccionada
 - Si el usuario elige Multiplicación, debe crear ambas matrices con dimensiones válidas
-
 
 
 ## 🧠 Créditos
